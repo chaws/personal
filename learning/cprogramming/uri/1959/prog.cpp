@@ -1,0 +1,14 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+	long long int A, B;
+	while(cin >> A >> B)
+	{
+		cout << (A * B) << endl;
+	}
+	return 0;
+}

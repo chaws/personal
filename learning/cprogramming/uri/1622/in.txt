@@ -1,0 +1,21 @@
+8 3
+xxxxxxxx
+3 3
+3 4
+3 7
+11 3
+xooxoxxxxox
+5 6
+10 43
+9 1000
+100 8
+xoxxxxooxxoxoxxoooooxoxxoooxxxxoooxxxoxoxxxxoxooxoxoxooxoooxxxoxoxoxxxoxoxoxooxoxoooooxxoxooooxoooox
+64 480571
+75 960379
+72 66602
+60 612903
+52 570493
+17 260757
+44 560281
+9 209442
+0 0

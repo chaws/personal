@@ -1,0 +1,108 @@
+
+Analyzing function: main/24
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2
+;; 2 succs { 1 }
+
+Analyzing function body size: main
+
+Inline summary for main/24 inlinable
+  self time:       2
+  global time:     0
+  self size:       3
+  global size:     0
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000, predicate:(true)
+    size:3.000000, time:2.000000, predicate:(not inlined)
+  calls:
+
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Inline summary for main/24 inlinable
+  self time:       2
+  global time:     2
+  self size:       3
+  global size:     3
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000, predicate:(true)
+    size:3.000000, time:2.000000, predicate:(not inlined)
+  calls:
+
+
+Flattening functions:
+
+Deciding on inlining of small functions.  Starting with size 3.
+Enqueueing calls of main/24.
+Unit growth for small function inlining: 3->3 (0%)
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+
+Deciding on functions to be inlined into all callers:
+
+Inlined 0 calls, eliminated 0 functions
+
+Inline summary for main/24 inlinable
+  self time:       2
+  global time:     2
+  self size:       3
+  global size:     3
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000, predicate:(true)
+    size:3.000000, time:2.000000, predicate:(not inlined)
+  calls:
+
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Symbol table:
+
+main/24 (main) @0x7f11bbb57818
+  Type: function
+  Visibility: public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: analyzed body finalized only_called_at_startup
+  Called by: 
+  Calls: 
+main ()
+{
+  <bb 2>:
+  return 0;
+
+}
+
+
+
+;; Function main (main, funcdef_no=24, decl_uid=2382, cgraph_uid=24) (executed once)
+
+main ()
+{
+;;   basic block 2, loop depth 0
+;;    pred:       ENTRY
+  return 0;
+;;    succ:       EXIT
+
+}
+
+
+main ()
+{
+  <bb 2>:
+  return 0;
+
+}
+
+

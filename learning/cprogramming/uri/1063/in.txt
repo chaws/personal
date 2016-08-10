@@ -1,0 +1,28 @@
+4
+e t d a
+d a t e
+5
+o s t a p
+p a t o s
+4
+a a a a
+a a a a
+5
+a b a a b
+b b a a a
+4
+a b c d
+a b c d
+4
+a b c d
+d c b a
+4
+d c b a
+a b c d
+26
+a b c d e f g h i j k l m n o p q r s t u v w y x z
+a b c d e f g h i j k l m n o p q r s t u v w y x z
+4
+a a a a
+a b a a
+0

@@ -1,0 +1,61 @@
+
+
+ local analysis of main
+   scanning: return 0;
+Function is locally const.
+callgraph:
+
+main/24 (main) @0x7f11bbb57818
+  Type: function
+  Visibility: public
+  Aux: @0x2064130  References: 
+  Referring: 
+  Availability: available
+  Function flags: analyzed body finalized only_called_at_startup
+  Called by: 
+  Calls: 
+
+
+ ordered call graph: reduced for nothrow
+main/24 (main) @0x7f11bbb57818
+  Type: function
+  Visibility: public
+  Aux: @0x2064130  References: 
+  Referring: 
+  Availability: available
+  Function flags: analyzed body finalized only_called_at_startup
+  Called by: 
+  Calls: 
+
+callgraph:
+
+main/24 (main) @0x7f11bbb57818
+  Type: function
+  Visibility: public
+  Aux: @0x2064130  References: 
+  Referring: 
+  Availability: available
+  Function flags: analyzed body finalized only_called_at_startup
+  Called by: 
+  Calls: 
+
+
+ ordered call graph: reduced
+main/24 (main) @0x7f11bbb57818
+  Type: function
+  Visibility: public
+  Aux: @0x2064130  References: 
+  Referring: 
+  Availability: available
+  Function flags: analyzed body finalized only_called_at_startup
+  Called by: 
+  Calls: 
+
+main ()
+{
+  <bb 2>:
+  return 0;
+
+}
+
+

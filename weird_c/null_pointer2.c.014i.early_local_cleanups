@@ -1,0 +1,21 @@
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+main ()
+{
+  double a;
+  double * ptr;
+  int D.2182;
+
+  <bb 2>:
+  ptr = 0B;
+  a = MEM[(double *)ptr + 8B];
+  D.2182 = 0;
+
+<L0>:
+  return D.2182;
+
+}
+
+

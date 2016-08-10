@@ -1,6 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+typedef int myArr[4];
+typedef myArr * myArrPtr;
+typedef myArrPtr (*myFuncPtr)();
+typedef myFuncPtr (*myFuncPtrPtr)();
+
 // Pointer to an array of 4 ints
 int (*p)[4]; 
 
@@ -29,7 +34,7 @@ int main(void)
 	int arr[4] = {666, 777, 888, 999}; 
 
 	// OK
-	p = &arr; 
+	p = &arr; p =  
 
 	// Weird, but OK
 	p2 = f1; 

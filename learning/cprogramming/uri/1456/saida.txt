@@ -1,0 +1,975 @@
+gcc-4.8 prog.c -O2 -lm && cat in.txt | ./a.out
+Instancia 1
+Processing '+'
+*ptr = 0
+Processing '['
+*ptr = 1
+Open loop!!!
+Processing '>'
+*ptr = 1
+Processing ','
+*ptr = 0
+Processing ']'
+*ptr = 109
+Returning to loop!!!
+Processing '>'
+*ptr = 109
+Processing ','
+*ptr = 0
+Processing ']'
+*ptr = 97
+Returning to loop!!!
+Processing '>'
+*ptr = 97
+Processing ','
+*ptr = 0
+Processing ']'
+*ptr = 114
+Returning to loop!!!
+Processing '>'
+*ptr = 114
+Processing ','
+*ptr = 0
+Processing ']'
+*ptr = 114
+Returning to loop!!!
+Processing '>'
+*ptr = 114
+Processing ','
+*ptr = 0
+Processing ']'
+*ptr = 111
+Returning to loop!!!
+Processing '>'
+*ptr = 111
+Processing ','
+*ptr = 0
+Processing ']'
+*ptr = 99
+Returning to loop!!!
+Processing '>'
+*ptr = 99
+Processing ','
+*ptr = 0
+Processing ']'
+*ptr = 111
+Returning to loop!!!
+Processing '>'
+*ptr = 111
+Processing ','
+*ptr = 0
+Processing ']'
+*ptr = 115
+Returning to loop!!!
+Processing '>'
+*ptr = 115
+Processing ','
+*ptr = 0
+Processing ']'
+*ptr = 0
+Closed loop!!!
+Processing '-'
+*ptr = 0
+Processing '['
+*ptr = 255
+Open loop!!!
+Processing '+'
+*ptr = 255
+Processing '.'
+*ptr = 0
+Processing '<'
+*ptr = 0
+Processing '-'
+*ptr = 115
+Processing ']'
+*ptr = 114
+Returning to loop!!!
+Processing '+'
+*ptr = 114
+Processing '.'
+*ptr = 115
+'s'Processing '<'
+*ptr = 115
+Processing '-'
+*ptr = 111
+Processing ']'
+*ptr = 110
+Returning to loop!!!
+Processing '+'
+*ptr = 110
+Processing '.'
+*ptr = 111
+'o'Processing '<'
+*ptr = 111
+Processing '-'
+*ptr = 99
+Processing ']'
+*ptr = 98
+Returning to loop!!!
+Processing '+'
+*ptr = 98
+Processing '.'
+*ptr = 99
+'c'Processing '<'
+*ptr = 99
+Processing '-'
+*ptr = 111
+Processing ']'
+*ptr = 110
+Returning to loop!!!
+Processing '+'
+*ptr = 110
+Processing '.'
+*ptr = 111
+'o'Processing '<'
+*ptr = 111
+Processing '-'
+*ptr = 114
+Processing ']'
+*ptr = 113
+Returning to loop!!!
+Processing '+'
+*ptr = 113
+Processing '.'
+*ptr = 114
+'r'Processing '<'
+*ptr = 114
+Processing '-'
+*ptr = 114
+Processing ']'
+*ptr = 113
+Returning to loop!!!
+Processing '+'
+*ptr = 113
+Processing '.'
+*ptr = 114
+'r'Processing '<'
+*ptr = 114
+Processing '-'
+*ptr = 97
+Processing ']'
+*ptr = 96
+Returning to loop!!!
+Processing '+'
+*ptr = 96
+Processing '.'
+*ptr = 97
+'a'Processing '<'
+*ptr = 97
+Processing '-'
+*ptr = 109
+Processing ']'
+*ptr = 108
+Returning to loop!!!
+Processing '+'
+*ptr = 108
+Processing '.'
+*ptr = 109
+'m'Processing '<'
+*ptr = 109
+Processing '-'
+*ptr = 1
+Processing ']'
+*ptr = 0
+Closed loop!!!
+
+
+Instancia 2
+Processing '['
+*ptr = 0
+Open loop!!!
+Closed loop!!!
+
+
+Instancia 3
+Processing '+'
+*ptr = 0
+Processing '+'
+*ptr = 1
+Processing '+'
+*ptr = 2
+Processing '+'
+*ptr = 3
+Processing '+'
+*ptr = 4
+Processing '+'
+*ptr = 5
+Processing '+'
+*ptr = 6
+Processing '+'
+*ptr = 7
+Processing '+'
+*ptr = 8
+Processing '+'
+*ptr = 9
+Processing '['
+*ptr = 10
+Open loop!!!
+Processing '>'
+*ptr = 10
+Processing '+'
+*ptr = 0
+Processing '+'
+*ptr = 1
+Processing '+'
+*ptr = 2
+Processing '+'
+*ptr = 3
+Processing '+'
+*ptr = 4
+Processing '+'
+*ptr = 5
+Processing '+'
+*ptr = 6
+Processing '>'
+*ptr = 7
+Processing '+'
+*ptr = 0
+Processing '+'
+*ptr = 1
+Processing '+'
+*ptr = 2
+Processing '+'
+*ptr = 3
+Processing '+'
+*ptr = 4
+Processing '+'
+*ptr = 5
+Processing '+'
+*ptr = 6
+Processing '+'
+*ptr = 7
+Processing '+'
+*ptr = 8
+Processing '+'
+*ptr = 9
+Processing '>'
+*ptr = 10
+Processing '+'
+*ptr = 0
+Processing '+'
+*ptr = 1
+Processing '+'
+*ptr = 2
+Processing '>'
+*ptr = 3
+Processing '+'
+*ptr = 0
+Processing '<'
+*ptr = 1
+Processing '<'
+*ptr = 3
+Processing '<'
+*ptr = 10
+Processing '<'
+*ptr = 7
+Processing '-'
+*ptr = 10
+Processing ']'
+*ptr = 9
+Returning to loop!!!
+Processing '>'
+*ptr = 9
+Processing '+'
+*ptr = 7
+Processing '+'
+*ptr = 8
+Processing '+'
+*ptr = 9
+Processing '+'
+*ptr = 10
+Processing '+'
+*ptr = 11
+Processing '+'
+*ptr = 12
+Processing '+'
+*ptr = 13
+Processing '>'
+*ptr = 14
+Processing '+'
+*ptr = 10
+Processing '+'
+*ptr = 11
+Processing '+'
+*ptr = 12
+Processing '+'
+*ptr = 13
+Processing '+'
+*ptr = 14
+Processing '+'
+*ptr = 15
+Processing '+'
+*ptr = 16
+Processing '+'
+*ptr = 17
+Processing '+'
+*ptr = 18
+Processing '+'
+*ptr = 19
+Processing '>'
+*ptr = 20
+Processing '+'
+*ptr = 3
+Processing '+'
+*ptr = 4
+Processing '+'
+*ptr = 5
+Processing '>'
+*ptr = 6
+Processing '+'
+*ptr = 1
+Processing '<'
+*ptr = 2
+Processing '<'
+*ptr = 6
+Processing '<'
+*ptr = 20
+Processing '<'
+*ptr = 14
+Processing '-'
+*ptr = 9
+Processing ']'
+*ptr = 8
+Returning to loop!!!
+Processing '>'
+*ptr = 8
+Processing '+'
+*ptr = 14
+Processing '+'
+*ptr = 15
+Processing '+'
+*ptr = 16
+Processing '+'
+*ptr = 17
+Processing '+'
+*ptr = 18
+Processing '+'
+*ptr = 19
+Processing '+'
+*ptr = 20
+Processing '>'
+*ptr = 21
+Processing '+'
+*ptr = 20
+Processing '+'
+*ptr = 21
+Processing '+'
+*ptr = 22
+Processing '+'
+*ptr = 23
+Processing '+'
+*ptr = 24
+Processing '+'
+*ptr = 25
+Processing '+'
+*ptr = 26
+Processing '+'
+*ptr = 27
+Processing '+'
+*ptr = 28
+Processing '+'
+*ptr = 29
+Processing '>'
+*ptr = 30
+Processing '+'
+*ptr = 6
+Processing '+'
+*ptr = 7
+Processing '+'
+*ptr = 8
+Processing '>'
+*ptr = 9
+Processing '+'
+*ptr = 2
+Processing '<'
+*ptr = 3
+Processing '<'
+*ptr = 9
+Processing '<'
+*ptr = 30
+Processing '<'
+*ptr = 21
+Processing '-'
+*ptr = 8
+Processing ']'
+*ptr = 7
+Returning to loop!!!
+Processing '>'
+*ptr = 7
+Processing '+'
+*ptr = 21
+Processing '+'
+*ptr = 22
+Processing '+'
+*ptr = 23
+Processing '+'
+*ptr = 24
+Processing '+'
+*ptr = 25
+Processing '+'
+*ptr = 26
+Processing '+'
+*ptr = 27
+Processing '>'
+*ptr = 28
+Processing '+'
+*ptr = 30
+Processing '+'
+*ptr = 31
+Processing '+'
+*ptr = 32
+Processing '+'
+*ptr = 33
+Processing '+'
+*ptr = 34
+Processing '+'
+*ptr = 35
+Processing '+'
+*ptr = 36
+Processing '+'
+*ptr = 37
+Processing '+'
+*ptr = 38
+Processing '+'
+*ptr = 39
+Processing '>'
+*ptr = 40
+Processing '+'
+*ptr = 9
+Processing '+'
+*ptr = 10
+Processing '+'
+*ptr = 11
+Processing '>'
+*ptr = 12
+Processing '+'
+*ptr = 3
+Processing '<'
+*ptr = 4
+Processing '<'
+*ptr = 12
+Processing '<'
+*ptr = 40
+Processing '<'
+*ptr = 28
+Processing '-'
+*ptr = 7
+Processing ']'
+*ptr = 6
+Returning to loop!!!
+Processing '>'
+*ptr = 6
+Processing '+'
+*ptr = 28
+Processing '+'
+*ptr = 29
+Processing '+'
+*ptr = 30
+Processing '+'
+*ptr = 31
+Processing '+'
+*ptr = 32
+Processing '+'
+*ptr = 33
+Processing '+'
+*ptr = 34
+Processing '>'
+*ptr = 35
+Processing '+'
+*ptr = 40
+Processing '+'
+*ptr = 41
+Processing '+'
+*ptr = 42
+Processing '+'
+*ptr = 43
+Processing '+'
+*ptr = 44
+Processing '+'
+*ptr = 45
+Processing '+'
+*ptr = 46
+Processing '+'
+*ptr = 47
+Processing '+'
+*ptr = 48
+Processing '+'
+*ptr = 49
+Processing '>'
+*ptr = 50
+Processing '+'
+*ptr = 12
+Processing '+'
+*ptr = 13
+Processing '+'
+*ptr = 14
+Processing '>'
+*ptr = 15
+Processing '+'
+*ptr = 4
+Processing '<'
+*ptr = 5
+Processing '<'
+*ptr = 15
+Processing '<'
+*ptr = 50
+Processing '<'
+*ptr = 35
+Processing '-'
+*ptr = 6
+Processing ']'
+*ptr = 5
+Returning to loop!!!
+Processing '>'
+*ptr = 5
+Processing '+'
+*ptr = 35
+Processing '+'
+*ptr = 36
+Processing '+'
+*ptr = 37
+Processing '+'
+*ptr = 38
+Processing '+'
+*ptr = 39
+Processing '+'
+*ptr = 40
+Processing '+'
+*ptr = 41
+Processing '>'
+*ptr = 42
+Processing '+'
+*ptr = 50
+Processing '+'
+*ptr = 51
+Processing '+'
+*ptr = 52
+Processing '+'
+*ptr = 53
+Processing '+'
+*ptr = 54
+Processing '+'
+*ptr = 55
+Processing '+'
+*ptr = 56
+Processing '+'
+*ptr = 57
+Processing '+'
+*ptr = 58
+Processing '+'
+*ptr = 59
+Processing '>'
+*ptr = 60
+Processing '+'
+*ptr = 15
+Processing '+'
+*ptr = 16
+Processing '+'
+*ptr = 17
+Processing '>'
+*ptr = 18
+Processing '+'
+*ptr = 5
+Processing '<'
+*ptr = 6
+Processing '<'
+*ptr = 18
+Processing '<'
+*ptr = 60
+Processing '<'
+*ptr = 42
+Processing '-'
+*ptr = 5
+Processing ']'
+*ptr = 4
+Returning to loop!!!
+Processing '>'
+*ptr = 4
+Processing '+'
+*ptr = 42
+Processing '+'
+*ptr = 43
+Processing '+'
+*ptr = 44
+Processing '+'
+*ptr = 45
+Processing '+'
+*ptr = 46
+Processing '+'
+*ptr = 47
+Processing '+'
+*ptr = 48
+Processing '>'
+*ptr = 49
+Processing '+'
+*ptr = 60
+Processing '+'
+*ptr = 61
+Processing '+'
+*ptr = 62
+Processing '+'
+*ptr = 63
+Processing '+'
+*ptr = 64
+Processing '+'
+*ptr = 65
+Processing '+'
+*ptr = 66
+Processing '+'
+*ptr = 67
+Processing '+'
+*ptr = 68
+Processing '+'
+*ptr = 69
+Processing '>'
+*ptr = 70
+Processing '+'
+*ptr = 18
+Processing '+'
+*ptr = 19
+Processing '+'
+*ptr = 20
+Processing '>'
+*ptr = 21
+Processing '+'
+*ptr = 6
+Processing '<'
+*ptr = 7
+Processing '<'
+*ptr = 21
+Processing '<'
+*ptr = 70
+Processing '<'
+*ptr = 49
+Processing '-'
+*ptr = 4
+Processing ']'
+*ptr = 3
+Returning to loop!!!
+Processing '>'
+*ptr = 3
+Processing '+'
+*ptr = 49
+Processing '+'
+*ptr = 50
+Processing '+'
+*ptr = 51
+Processing '+'
+*ptr = 52
+Processing '+'
+*ptr = 53
+Processing '+'
+*ptr = 54
+Processing '+'
+*ptr = 55
+Processing '>'
+*ptr = 56
+Processing '+'
+*ptr = 70
+Processing '+'
+*ptr = 71
+Processing '+'
+*ptr = 72
+Processing '+'
+*ptr = 73
+Processing '+'
+*ptr = 74
+Processing '+'
+*ptr = 75
+Processing '+'
+*ptr = 76
+Processing '+'
+*ptr = 77
+Processing '+'
+*ptr = 78
+Processing '+'
+*ptr = 79
+Processing '>'
+*ptr = 80
+Processing '+'
+*ptr = 21
+Processing '+'
+*ptr = 22
+Processing '+'
+*ptr = 23
+Processing '>'
+*ptr = 24
+Processing '+'
+*ptr = 7
+Processing '<'
+*ptr = 8
+Processing '<'
+*ptr = 24
+Processing '<'
+*ptr = 80
+Processing '<'
+*ptr = 56
+Processing '-'
+*ptr = 3
+Processing ']'
+*ptr = 2
+Returning to loop!!!
+Processing '>'
+*ptr = 2
+Processing '+'
+*ptr = 56
+Processing '+'
+*ptr = 57
+Processing '+'
+*ptr = 58
+Processing '+'
+*ptr = 59
+Processing '+'
+*ptr = 60
+Processing '+'
+*ptr = 61
+Processing '+'
+*ptr = 62
+Processing '>'
+*ptr = 63
+Processing '+'
+*ptr = 80
+Processing '+'
+*ptr = 81
+Processing '+'
+*ptr = 82
+Processing '+'
+*ptr = 83
+Processing '+'
+*ptr = 84
+Processing '+'
+*ptr = 85
+Processing '+'
+*ptr = 86
+Processing '+'
+*ptr = 87
+Processing '+'
+*ptr = 88
+Processing '+'
+*ptr = 89
+Processing '>'
+*ptr = 90
+Processing '+'
+*ptr = 24
+Processing '+'
+*ptr = 25
+Processing '+'
+*ptr = 26
+Processing '>'
+*ptr = 27
+Processing '+'
+*ptr = 8
+Processing '<'
+*ptr = 9
+Processing '<'
+*ptr = 27
+Processing '<'
+*ptr = 90
+Processing '<'
+*ptr = 63
+Processing '-'
+*ptr = 2
+Processing ']'
+*ptr = 1
+Returning to loop!!!
+Processing '>'
+*ptr = 1
+Processing '+'
+*ptr = 63
+Processing '+'
+*ptr = 64
+Processing '+'
+*ptr = 65
+Processing '+'
+*ptr = 66
+Processing '+'
+*ptr = 67
+Processing '+'
+*ptr = 68
+Processing '+'
+*ptr = 69
+Processing '>'
+*ptr = 70
+Processing '+'
+*ptr = 90
+Processing '+'
+*ptr = 91
+Processing '+'
+*ptr = 92
+Processing '+'
+*ptr = 93
+Processing '+'
+*ptr = 94
+Processing '+'
+*ptr = 95
+Processing '+'
+*ptr = 96
+Processing '+'
+*ptr = 97
+Processing '+'
+*ptr = 98
+Processing '+'
+*ptr = 99
+Processing '>'
+*ptr = 100
+Processing '+'
+*ptr = 27
+Processing '+'
+*ptr = 28
+Processing '+'
+*ptr = 29
+Processing '>'
+*ptr = 30
+Processing '+'
+*ptr = 9
+Processing '<'
+*ptr = 10
+Processing '<'
+*ptr = 30
+Processing '<'
+*ptr = 100
+Processing '<'
+*ptr = 70
+Processing '-'
+*ptr = 1
+Processing ']'
+*ptr = 0
+Closed loop!!!
+Processing '+'
+*ptr = 0
+Processing '+'
+*ptr = 1
+Processing '.'
+*ptr = 2
+Processing '>'
+*ptr = 2
+Processing '+'
+*ptr = 70
+Processing '.'
+*ptr = 71
+'G'Processing '+'
+*ptr = 71
+Processing '+'
+*ptr = 72
+Processing '+'
+*ptr = 73
+Processing '+'
+*ptr = 74
+Processing '+'
+*ptr = 75
+Processing '+'
+*ptr = 76
+Processing '+'
+*ptr = 77
+Processing '.'
+*ptr = 78
+'N'Processing '.'
+*ptr = 78
+'N'Processing '+'
+*ptr = 78
+Processing '+'
+*ptr = 79
+Processing '+'
+*ptr = 80
+Processing '.'
+*ptr = 81
+'Q'Processing '>'
+*ptr = 81
+Processing '+'
+*ptr = 100
+Processing '+'
+*ptr = 101
+Processing '.'
+*ptr = 102
+'f'Processing '<'
+*ptr = 102
+Processing '<'
+*ptr = 81
+Processing '+'
+*ptr = 2
+Processing '+'
+*ptr = 3
+Processing '+'
+*ptr = 4
+Processing '+'
+*ptr = 5
+Processing '+'
+*ptr = 6
+Processing '+'
+*ptr = 7
+Processing '+'
+*ptr = 8
+Processing '+'
+*ptr = 9
+Processing '+'
+*ptr = 10
+Processing '+'
+*ptr = 11
+Processing '+'
+*ptr = 12
+Processing '+'
+*ptr = 13
+Processing '+'
+*ptr = 14
+Processing '+'
+*ptr = 15
+Processing '+'
+*ptr = 16
+Processing '.'
+*ptr = 17
+Processing '>'
+*ptr = 17
+Processing '.'
+*ptr = 81
+'Q'Processing '+'
+*ptr = 81
+Processing '+'
+*ptr = 82
+Processing '+'
+*ptr = 83
+Processing '.'
+*ptr = 84
+'T'Processing '-'
+*ptr = 84
+Processing '-'
+*ptr = 83
+Processing '-'
+*ptr = 82
+Processing '-'
+*ptr = 81
+Processing '-'
+*ptr = 80
+Processing '-'
+*ptr = 79
+Processing '.'
+*ptr = 78
+'N'Processing '-'
+*ptr = 78
+Processing '-'
+*ptr = 77
+Processing '-'
+*ptr = 76
+Processing '-'
+*ptr = 75
+Processing '-'
+*ptr = 74
+Processing '-'
+*ptr = 73
+Processing '-'
+*ptr = 72
+Processing '-'
+*ptr = 71
+Processing '.'
+*ptr = 70
+'F'Processing '>'
+*ptr = 70
+Processing '+'
+*ptr = 102
+Processing '.'
+*ptr = 103
+'g'Processing '>'
+*ptr = 103
+Processing '.'
+*ptr = 30
+
+

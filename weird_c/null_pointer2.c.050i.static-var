@@ -1,0 +1,42 @@
+callgraph:
+
+main/24 (main) @0x7f11bbb57818
+  Type: function
+  Visibility: public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: analyzed body finalized only_called_at_startup
+  Called by: 
+  Calls: 
+Clearing variable flags:
+
+Function name:main/24:
+  locals read: 
+  locals written: 
+
+ ordered call graph: reduced
+main/24 (main) @0x7f11bbb57818
+  Type: function
+  Visibility: public
+  Aux: @0x2010ef0  References: 
+  Referring: 
+  Availability: available
+  Function flags: analyzed body finalized only_called_at_startup
+  Called by: 
+  Calls: 
+
+
+Function name:main/24:
+    locals read: ALL
+    locals written: ALL
+  globals read: ALL
+  globals written: ALL
+main ()
+{
+  <bb 2>:
+  return 0;
+
+}
+
+
