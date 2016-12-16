@@ -1,7 +1,7 @@
 /*
  * Fri Dec 16 16:20:23 EST 2016
  *
- * This is a program that implement an [unusual] way of multiplying to integers.
+ * This is a program that implements a [n unusual] way of multiplying to integers.
  * It uses pointer arithmetic inherited from concepts of the C language
  * By Paul E. Black, adapted by chaws
  */
