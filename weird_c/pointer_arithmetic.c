@@ -11,6 +11,15 @@ int main()
 		printf("b = %p, &b = %p, sizeof(b) = %lu, b + 1 = %p\n", b, &b, sizeof(b), b + 1);
 		printf("\n");
 	}
+
+	WCHAR:
+	{
+		wchar_t a, *b;
+		printf("WCHAR_T\n");
+		printf("a = %i, &a = %p, sizeof(a) = %lu\n", a, &a, sizeof(a));
+		printf("b = %p, &b = %p, sizeof(b) = %lu, b + 1 = %p\n", b, &b, sizeof(b), b + 1);
+		printf("\n");
+	}
 	
 	SHORT:
 	{
